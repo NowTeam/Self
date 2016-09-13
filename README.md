@@ -19,8 +19,8 @@ github.com/NowTeam/Self
 ــــــــــــــــــــ
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 cd $HOME
-git clone https://github.com/BeyondTeam/Self-Bot.git -b supergroups
-cd Self-Bot
+git clone https://github.com/NowTeam/Self
+cd Self
 chmod +x launch.sh
 ./launch.sh install
 cd .luarocks/bin
